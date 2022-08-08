@@ -21,7 +21,7 @@
       </div>
       <div class="footer">
         <p>
-          Photo by <a href="#">Olena Sergienko</a>on <a href="#">Unsplash</a>
+          Photo by <a href="#">Olena Sergienko</a> on <a href="#">Unsplash</a>
         </p>
       </div>
     </div>
@@ -36,7 +36,7 @@
         <p>You <em>know</em> you want to.</p>
       </div>
       <div class="form-content">
-        <form action="submit">
+        <form action="submit" id="myForm">
           <legend>Let's do this!</legend>
           <fieldset>
             <div class="fname">
@@ -61,18 +61,18 @@
           <fieldset>
             <div class="password">
               <label for="password">Password</label><br>
-              <input type="password" id="password" name="password" />
+              <input type="password" id="password" name="password" class="error" required/>
             </div>
             <div class="password2">
               <label for="password2">Confirm password</label><br>
-              <input type="password" id="password2" name="password2" />
+              <input type="password" id="password2" name="password2" class="error" required/>
             </div>
           </fieldset>
-          <div class="form-bottom">
-            <button type="submit">Create Account</button>
-            <p>Already have an account? <a href="#">Log in</a></p>
-          </div>
         </form>
+      </div>
+      <div class="form-bottom">
+        <button type="submit" form="myForm">Create Account</button>
+        <p>Already have an account? <a href="#">Log in</a></p>
       </div>
     </div>
   </body>

@@ -26,7 +26,7 @@ legend{
   color: white;
 }
 
-a:hover{
+.footer a:hover{
     color: black;
 }
 
@@ -61,7 +61,7 @@ a:hover{
 .footer {
   bottom: 0;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 400;
 }
 
@@ -92,4 +92,51 @@ a:hover{
 
 .form-description, .form-content{
     padding: 0 50px;
+}
+
+label{
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 0.8rem;
+  letter-spacing: 0.12rem;
+}
+
+input{
+  border: #E5E7EB solid 1px;
+  margin: 0 70px 0 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+input:focus{
+  border: blue solid 1px;
+}
+
+.error{
+  border: red 1px solid;
+}
+
+.form-bottom{
+  padding: 30px 50px;
+  font-weight: 400;
+}
+
+.form-bottom button{
+  background-color: #596D48;
+  color: white;
+  font-size: 1.1rem;
+  padding: 15px 50px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.form-bottom button:hover{
+  background-color: #637553;
+  cursor: pointer;
+}
+
+.form-bottom a{
+  text-decoration-line: none;
+  font-weight: 600;
 }
